@@ -1,0 +1,75 @@
+header{
+background-color: #EAC926;;
+}
+
+header .compra{
+    text-align: center;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+
+header .nav__ul{
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+}
+header .nav__ul li a{
+    color: black;
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+header .nav__burger-menu{
+    color: white;
+    background-color: #1259c3;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 125px;
+    font-size: 25px;
+
+}
+main .titulo{
+    text-align: center;
+    font-size: 24px;
+
+}
+main .valor{
+    font-size: 18px;
+}
+main .descuento{
+    font-size: 16px;
+}
+main .name{
+    font-size: 16px;
+}
+
+footer i{
+    color: #1259c3;
+    text-align: center;
+    margin-left: 125px;
+    font-size: 2em;
+    margin-top: 2em;
+    
+
+
+}
+footer .titulo2{
+    text-align: center;
+    margin: 0 auto;
+}
+footer .descripcion{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
+footer .copy{
+    padding: 0%;
+    font-size: 10px;
+}
