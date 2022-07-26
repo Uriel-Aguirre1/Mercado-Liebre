@@ -1,17 +1,50 @@
 header{
 background-color: #EAC926;
+
 }
 
 header .compra{
     text-align: center;
+    margin: 7%;
 }
 
 body{
     font-family: 'Roboto';
 }
+.compra_2{
+    display: none;
+}
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    top: -15px;
+    }
+header .img__busqueda{
+    display: flex;
+    justify-content: space-between;
+} 
+header .logo{
+    width: 50%;
+}
 
-
-header .nav__ul{
+header .nav__ul__1{
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+}
+header .nav__ul__2{
     text-decoration: none;
     color: black;
     padding: 0%;
@@ -21,6 +54,17 @@ header .nav__ul li a{
     padding: 0%;
     text-decoration: none;
 }
+header .nav__ul__1 li a{
+    color: black;
+    padding: 0%;
+    text-decoration: none;
+}
+header .nav__ul__2 li a{
+    color: black;
+    padding: 0%;
+    text-decoration: none;
+}
+
 
 
 header .nav__burger-menu{
@@ -30,7 +74,8 @@ header .nav__burger-menu{
     text-align: center;
     width: 35px;
     height: 35px;
-    margin: auto;
+    margin-left: 44%;
+    margin-bottom: 5%;
     font-size: 25px;
 
 }
@@ -118,6 +163,46 @@ main i{
     color: #39b54a;
 }
 
+main .p_cafetera{
+    display: flex;
+    justify-content: space-between;
+}
+main .descuento{
+    width: 70%;
+}
+main .valor{
+    width: 30%;
+}
+main .p_cafetera_2{
+    display: flex;
+    justify-content: space-between;
+}
+main .p_mac{
+    display: flex;
+    justify-content: space-between;
+}
+main .p_mac_2{
+    display: flex;
+    justify-content: space-between;
+}
+main .p_s10{
+    display: flex;
+    justify-content: space-between;
+}
+main .p_s102_2{
+    display: flex;
+    justify-content: space-between;
+}
+main .p_tv{
+    display: flex;
+    justify-content: space-between;
+}
+main .p_tv_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 footer{
     margin: 10px;
 }
@@ -125,7 +210,7 @@ footer{
 footer i{
     color: #1259c3;
     text-align: center;
-    margin-left: 125px;
+    margin-left: 43%;
     font-size: 2em;
     margin-top: 2em;
     
@@ -147,47 +232,117 @@ footer .copy{
 }
 
 
-@media screen and (max-width: 360px){
-    header .nav__ul{
-        display: none;
-    }
-    
-    main .name{
+
+
+@media screen and (min-width: 320px) {
+    .header__navegador{
         display: none;
     }
    
-}
+   
+    
+    
+    }
 
-@media screen and (min-width: 361px) {
-  
+@media screen and (min-width: 768px){
+    .nav__ul__1{
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        margin: 15px;
+        
+    }
+   
+    .nav__ul__2{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        margin: 15px;
+        
+    }
+    
+    .header__navegador{
+        display: flex;
+        justify-content: space-between;
+        
+    }
     header .nav__burger-menu{
         display: none;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-   
-    
-    
+    .img__busqueda{
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+        
+    }
+    .logo{
+        margin-right: 3%;
+    }
+    .buscador{
+        margin-right: 3%;
     }
 
-/*@media screen and (min-width: 769px) and (max-width: 1080px){
-    header .nav__burger-menu{
+    .compra_2{
+        display: block;
+        margin-right: 1%;
+    }
+    .compra{
         display: none;
+        
     }
+    .cafetera__mac{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cafetera__mac__2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .celular__tv{
+        display: flex;
+        justify-content: space-between;
+    }
+    .celular__tv__2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .caja__cafetera{
+        height: 93%;
+        width: 97%;
+    
+    }
+    .caja__cafetera2{
+        height: 93%;
+        width: 97%;
+    
+        
+    
+}
+.footer i{
+            
+    margin-left: 80%;
     
     
-    }
 
-@media screen and (min-width: 360x) {
-    main .name{
-        display: none;
-    }
-    header .nav__ul{
-        display: none;
-    }
-    }
-    
-    
-    
 
+}
+}
 
+    
+@media screen and (min-width: 1024px){
+.articulos__vista{
+    display: flex;
+}
+.articulo__oferta{
+    display: flex;
+}
+.caja__cafetera2{
+    height: 91%;
 
+}
+.caja__cafetera{
+    height: 91%;
+
+}
+}
