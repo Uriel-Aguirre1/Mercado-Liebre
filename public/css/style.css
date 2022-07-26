@@ -38,7 +38,8 @@ header .nav__burger-menu{
 
 main{
     width: 100%;
-    background-color: #ebebeb;;
+    background-color: #ebebeb;
+    justify-content: center;
     
 }
 main img{
