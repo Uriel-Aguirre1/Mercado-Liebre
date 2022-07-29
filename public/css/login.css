@@ -93,6 +93,7 @@ header{
     
 
  }
+ 
  main input{
     margin: 2%;
     border-radius: 1%;
@@ -100,6 +101,9 @@ header{
     height: 4%;
     padding: 3%;
     
+}
+main .enviar:hover{
+    background-color: #0022AA
 }
 main #Nombre{
     padding: 1%;
@@ -119,6 +123,9 @@ footer i{
     
 
 
+}
+footer i:hover{
+    color: #39b54a;
 }
 footer .titulo2{
     text-align: center;
@@ -197,4 +204,10 @@ footer .copy{
             display: none;
             
         }
+        footer .footer__flex{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8%;
+            }            
+               
     }

@@ -79,22 +79,9 @@ header{
         justify-content: center;
         
     }
-main .formulario{
-    display: flex;
-    flex-direction: column;
-    margin-left: 25%;
-    margin-right: 25%;
-    
-}
+
 main .formulario__contraseña{
-    display: flex;
-    flex-direction: column;
-    
-    
-    
-}
-main .formulario__contraseña{
-    margin-top: 5%;
+    margin-top: 1%;
     
     
 }
@@ -102,20 +89,26 @@ main input{
     margin: 2%;
     border-radius: 5%;
     border: solid 1px white;
-    height: 5%;
 }
 main #Nombre{
-    padding: 3%;
+    padding: 2%;
 }
 main h2{margin-top: 0%;
 
     text-align: center;
 }
-main .formulario__buttom input{
+main .boton input{
     background-color: #1259c3;
     color: white;
     padding: 3%;
     border-radius: 5%;
+    
+}
+.Borrar{
+    margin-left: 24px;
+}
+.enviar{
+    margin-left: 24px;
 }
 
 
@@ -133,6 +126,9 @@ footer i{
 
 
 }
+footer i:hover{
+    color: #39b54a;
+}
 footer .titulo2{
     text-align: center;
     margin: 0 auto;
@@ -147,27 +143,47 @@ footer .copy{
     font-size: 10px;
 }
 
-
-
-@media screen and (min-width: 320px) {
-    .header__navegador{
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+	.header__navegador{
         display: none;
+    }main .formulario__contraseña{
+        display: flex; 
+          
     }
+    .primero{
+        text-align: center;
+    }
+    .formulario__contraseña{
+        text-align: center;
+    }
+   .segundo{
+    margin-left: 23%;
+   }
    
-   
-    
-    
-    }
-@media  screen and (min-width: 425px){
-    main .formulario{
-        margin-left: 38%;
-        margin-right: 35%;
-        
-    }
 }
 
 
-    @media screen and (min-width: 768px){
+    
+@media only screen and (min-width: 425px) and (max-width: 785px) {
+    main .formulario{
+        margin-left: 33%;
+        margin-right: 30%;
+        
+    }main .formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+}
+
+    
+    
+
+
+
+    @media (min-width: 768px){
         .nav__ul__1{
             display: flex;
             justify-content: space-between;
@@ -214,15 +230,61 @@ footer .copy{
             display: none;
             
         }
+        footer .footer__flex{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8%;
+            }   
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        } 
+        .primero{
+            text-align: center;
+        }
+        .segundo{
+            display: flex;
+            justify-content: space-around;
+            
+        }   
+        .intereses{
+            width: 25%;
+        }
+        .perfil{
+            width: 25%;
+        }
+        .formulario__contraseña{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            
+        }
+        .contraseña{
+            width: 25%;
+            margin-bottom: 10px;
+        }
+        .boton{
+            width: 35%;
+            
+        }
+       
+        
+               
     }
-    @media  screen and (min-width: 1024px){
+    @media  (min-width: 1024px){
         main .formulario{
             margin-left: 41%;
             margin-right: 38%;
             
         }
+        .segundo{
+            margin-left: 10%;
+            
+        }   
     }
-    @media  screen and (min-width: 1340px){
+    @media   (min-width: 1340px){
         main .formulario{
             margin-left: 44%;
             margin-right: 41%;
@@ -230,6 +292,9 @@ footer .copy{
         }
         main h2{
             display: none;
+    }
+    .contraseña{
+        margin-left: 70px;
     }
 
     }

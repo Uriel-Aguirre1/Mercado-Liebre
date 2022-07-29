@@ -18,18 +18,21 @@ body{
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
+
 }
-main section article i{
+main  i{
     display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
     height: 30px;
-    border: 1px solid #39b54a;
+    border: 1px solid #171d18;
     background-color: #FFF;
     border-radius: 50%;
+    
+    transition: 1s;
     right: 20px;
-    top: -15px;
+    top: -10px;
     }
 header .img__busqueda{
     display: flex;
@@ -88,16 +91,39 @@ main{
     
 }
 main img{
-    width: 100%;
+    width: 90%;
+    height: 100%;
+
 }
 
 
 main .titulo{
-    text-align: center;
     font-size: 24px;
-    margin: -4px;
+    margin-top: -4px;
+    margin-left: 10px;
 
 }
+
+main .cafetera{
+    align-self: flex-start;
+}
+
+main .articulos__vista article h4{
+    width: 100%;
+    height: 0%;
+    overflow: hidden;
+}
+main .cafetera:hover h4{
+    height: 40px;
+}
+
+.caja__cafetera:hover{
+    box-shadow: 5px 5px 10px rgb(100, 100, 100);
+    
+    
+
+}
+
 main .valor{
     font-size: 18px;
     margin: 0px;
@@ -107,9 +133,7 @@ main .descuento{
     color: #39b54a;
     margin: 0px;
 }
-main .name{
-    font-size: 16px;
-}
+
 
 main .caja__cafetera{
     padding: 15px;
@@ -123,46 +147,37 @@ main .caja__cafetera2{
     border: 1px solid #ebebeb;
     margin: 15px;
 }
-main .tv{
-    padding: 15px;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    margin: 15px;
-}
-main .tv2{
-    padding: 15px;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    margin: 15px;
-}
-main .mac{
-    padding: 15px;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    margin: 15px;
-}
-main .mac2{
-    padding: 15px;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    margin: 15px;
-}
-main .s10{
-    padding: 15px;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    margin: 15px;
-}
-main .s102{
-    padding: 15px;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    margin: 15px;
-}
+
 main i{
     color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    transition: 1s;
+    right: 20px;
+    top: -10px;
 }
-
+main .fa-solid{
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    transition: 1s;
+    margin-left: 85%;
+    margin-bottom: 10%;
+    
+    
+}
+main .fa-solid:hover{
+transform: rotate(360deg);
+}
 main .p_cafetera{
     display: flex;
     justify-content: space-between;
@@ -205,16 +220,19 @@ main .p_tv_2{
 
 footer{
     margin: 10px;
-    text-align: center;
+    
 }
 
 footer i{
     color: #1259c3;
     font-size: 2em;
     margin-top: 2em;
-    
+    text-align: center;
 
 
+}
+footer i:hover{
+    color: #39b54a;
 }
 footer .titulo2{
     text-align: center;
@@ -307,43 +325,45 @@ footer .copy{
         display: flex;
         justify-content: space-between;
     }
-    .caja__cafetera{
-        height: 93%;
-        width: 97%;
-    
-    }
-    .caja__cafetera2{
-        height: 93%;
-        width: 97%;
+    footer .footer__flex{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8%;
+        text-align: center;
+        }            
+        
+        
+        
+        .articulos__vista article .cafetera{
+            height: 100%;
+        }
     
         
     
 }
-.footer i{
-            
-    margin-left: 80%;
-    
-    
 
 
-}
-}
 
     
 @media screen and (min-width: 1024px){
 .articulos__vista{
     display: flex;
+    justify-content: space-around;
     
 }
-.articulo__oferta{
-    display: flex;
-}
-.caja__cafetera2{
-    height: 91%;
 
-}
+
 .caja__cafetera{
-    height: 91%;
+    height: 100%;
+    
+    
 
 }
+
+.articulos__vista article{
+    width: 50%;
+    height: 90%;
+    }
+    
+
 }

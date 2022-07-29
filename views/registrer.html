@@ -57,41 +57,64 @@
     </header>
     <main>
         <form action="">
-            <div class="container">
-              <h2>Registrate</h2>
-              <div class="formulario">
-              <label for="Nombre"><input type="text" placeholder="Nombre y apellido" name="Nombre" id="Nombre" required></label>
+        <div class="container">
               
-              <label for="Nombre"><input type="text" placeholder="Nombre de usuario" name="Nombre" id="Nombre" required></label>
               
-              <label for="email"><input type="text" placeholder="Email" name="email" id="Nombre" required></label>
-
-              <h3>Fecha de nacimiento</h3>
-              <label for="Nombre"><input type="text" placeholder="Fecha de nacimiento" name="Nombre" id="Nombre" required></label>
-              <label for="Nombre"><input type="text" placeholder="Domicilio" name="Nombre" id="Nombre" required></label>
+            <div class="primero">
+                <h2>Registrate</h2>
+                <label for="Nombre"><input type="text" placeholder="Nombre y apellido" name="Nombre" id="Nombre" required></label>
               
-              <label for="email"></label>
-              <h3>Perfil de usuario</h3>
-              <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Comprador</form>
-            <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Vendedor</form>
-            <h3>Intereses</h3>
-            <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Electro</form>
-            <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Hogar</label></form>
-            <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Jugueteria</label></form>
-            <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Moda</label></form>
-            <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Vida sana</label></form>
-        <div class="formulario__contraseña">
-            <label for="Nombre"><input type="POST" placeholder="Foto de usuario" name="Nombre" id="Nombre" required></label>
-            
-            <label for="Nombre"><input type="password" placeholder="Contraseña" name="Nombre" id="Nombre" required></label>
-            
-            <label for="Nombre"> <input type="password" placeholder="Confirmar contraseña" name="Nombre" id="Nombre" required></label>
-        </div>
-        <div class="formulario__buttom">
-            <input type="submit" value="Enviar">
-            <input type="submit" value="Borrar">
-        </div>
+                <label for="Nombre"><input type="text" placeholder="Nombre de usuario" name="Nombre" id="Nombre" required></label>
+                
+                <label for="email"><input type="text" placeholder="Email" name="email" id="Nombre" required></label>
+                <div class="rebeldes">
+                    <label for="Nombre"><input type="text" placeholder="Fecha de nacimiento" name="Nombre" id="Nombre" required></label>
+                    <label for="Nombre"><input type="text" placeholder="Domicilio" name="Nombre" id="Nombre" required></label>
+                    <label for="Nombre"><input type="POST" placeholder="Foto de usuario" name="Nombre" id="Nombre" required></label>
+                </div>
             </div>
+              
+
+              
+                
+              
+              <div class="segundo">
+                <div class="perfil">
+                    <h3>Perfil de usuario</h3>
+                    <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Comprador</form>
+                  <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Vendedor</form>
+                </div>
+                <div class="intereses">
+                    <h3>Intereses</h3>
+                    <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Electro</form>
+                    <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Hogar</label></form>
+                    <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Jugueteria</label></form>
+                    <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Moda</label></form>
+                    <form action=""><label><input type="checkbox" name="Pescar" value="Pescar"> Vida sana</label></form>
+                </div>
+                    
+                 
+            </div>
+             
+            
+        <div class="formulario__contraseña">
+            <div class="contraseña">
+                <label for="Nombre"><input type="password" placeholder="Contraseña" name="Nombre" id="Nombre" required></label>
+            
+                <label for="Nombre"> <input type="password" placeholder="Confirmar contraseña" name="Nombre" id="Nombre" required></label>
+            </div>
+            
+            <div class="boton"> 
+                <input class="enviar" type="submit" value="Enviar">
+                <input class="Borrar" type="submit" value="Borrar">
+            </div>
+        
+                   
+        </div>
+        
+        
+               
+    </div>
             
           </form>
         
@@ -101,7 +124,7 @@
         
     </main>
     <footer>
-        
+        <div class="footer__flex">
             <section>
                 <i class="fa-solid fa-credit-card"></i>
                 <h4 class="titulo2">Pagá con tarjeta o en efectivo</h4>
@@ -126,6 +149,8 @@
                 </p>
     
             </section>
+        </div>
+            
             <section>
                 <p class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     
